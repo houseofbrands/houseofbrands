@@ -1,0 +1,14 @@
+This directory contains placeholder images for the House of Brands website.
+
+The following images are needed:
+- logo.png: House of Brands logo
+- banner1.jpg, banner2.jpg, banner3.jpg: Banner slider images
+- hob-categories.jpg: Image for HOB Categories section
+- partners.jpg: Image for Partners section
+- myntra.jpg: Image for Myntra OEM Brands section
+- product1.jpg through product4.jpg: Product showcase images
+- partner1.jpg through partner8.jpg: Partner logo images
+- myntra-logo.jpg: Myntra logo image
+- trusted1.jpg through trusted8.jpg: Trusted brand logo images
+
+Please replace these placeholders with actual images when available.

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Visionary - House Of Brands</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styles specific to the visionary page */
+        .visionary-section {
+            padding: 60px 0;
+        }
+        
+        .visionary-header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .visionary-header h1 {
+            font-size: 2.5rem;
+            color: #0a3b4a;
+            margin-bottom: 20px;
+        }
+        
+        .visionary-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+        
+        .visionary-image {
+            flex: 0 0 350px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+        
+        .visionary-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .visionary-bio {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .visionary-bio h2 {
+            font-size: 1.8rem;
+            color: #0a3b4a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .visionary-bio h3 {
+            font-size: 1.4rem;
+            color: #0a3b4a;
+            margin: 20px 0 10px;
+        }
+        
+        .visionary-bio p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #0a3b4a;
+        }
+        
+        .visionary-quote {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            position: relative;
+        }
+        
+        .visionary-quote:before {
+            content: '\201C';
+            font-size: 4rem;
+            color: #0a3b4a;
+            opacity: 0.2;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .visionary-quote p {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        
+        .visionary-quote cite {
+            font-weight: bold;
+            display: block;
+            text-align: right;
+        }
+        
+        .visionary-journey {
+            margin-top: 40px;
+        }
+        
+        .visionary-journey h2 {
+            font-size: 1.8rem;
+            color: #0a3b4a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .journey-item {
+            margin-bottom: 30px;
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .journey-item:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #0a3b4a;
+        }
+        
+        .journey-item:after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 20px;
+            width: 2px;
+            height: calc(100% - 12px);
+            background-color: #0a3b4a;
+            opacity: 0.3;
+        }
+        
+        .journey-item:last-child:after {
+            display: none;
+        }
+        
+        .journey-item h3 {
+            font-size: 1.4rem;
+            color: #0a3b4a;
+            margin-bottom: 10px;
+        }
+        
+        .journey-item p {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logos/logo.png" alt="House Of Brands Logo">
+                    <span>House Of Brands</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="visionary.html">Our Visionary</a></li>
+                    <li><a href="myntra-brands.html">Myntra OEM Brands</a></li>
+                    <li><a href="hob-categories.html">HOB Categories</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Our Visionary Section -->
+    <section class="visionary-section">
+        <div class="container">
+            <div class="visionary-header">
+                <h1>Our Visionary</h1>
+            </div>
+            
+            <div class="visionary-content">
+                <div class="visionary-image">
+                    <img src="images/visionary.jpg" alt="Rajan Mehta - Founder of House of Brands">
+                </div>
+                
+                <div class="visionary-bio">
+                    <h2>At the helm of House of Brands Fashion LLP is Rajan Mehta</h2>
+                    <p>An accomplished engineer with a master's degree from IIT Calcutta. With over 22 years of experience in the fashion industry, Rajan has collaborated with global brands such as Lee Cooper, Puma, Timex, and Reebok. His extensive career spans product development, manufacturing, and retail operations.</p>
+                    
+                    <h3>Engineering Excellence in Fashion</h3>
+                    <p>Rajan's journey began with a passion for precision engineering, which seamlessly transformed into the foundation for exquisite and fashion-conscious designs. His unique blend of technical expertise and global fashion trends has allowed him to bridge the gap between classic craftsmanship and contemporary aesthetics.</p>
+                    
+                    <p>Throughout his career, Rajan has led numerous successful launches and collaborations, driving growth for international brands and establishing them in the market. His vision to integrate the strength, vision, and ability to identify emerging trends have consistently positioned the brands he works with at the forefront of fashion and technology.</p>
+                </div>
+            </div>
+            
+            <div class="visionary-quote">
+                <p>"Under the guidance of House of Brands, Rajan's leadership extends beyond product development. He fosters a culture of creativity, innovation, and unwavering commitment to quality and attention to detail, ensuring that every product reflects not just style but also superior craftsmanship and durability."</p>
+                <cite>- Industry Recognition</cite>
+            </div>
+            
+            <div class="visionary-journey">
+                <h2>A Journey of Innovation and Excellence</h2>
+                
+                <div class="journey-item">
+                    <h3>Engineering Foundation</h3>
+                    <p>Graduated with honors in engineering, bringing technical precision to fashion design.</p>
+                </div>
+                
+                <div class="journey-item">
+                    <h3>Global Brand Collaborations</h3>
+                    <p>Partnered with international giants like Lee Cooper, Puma, and Reebok to develop innovative product lines.</p>
+                </div>
+                
+                <div class="journey-item">
+                    <h3>Retail Innovation</h3>
+                    <p>Pioneered new approaches to fashion retail, integrating technology with traditional shopping experiences.</p>
+                </div>
+                
+                <div class="journey-item">
+                    <h3>House of Brands Vision</h3>
+                    <p>Founded House of Brands with a vision to create fashion that combines quality craftsmanship with contemporary design.</p>
+                </div>
+                
+                <div class="journey-item">
+                    <h3>Global Expansion</h3>
+                    <p>Expanded the brand's presence internationally, bringing Indian craftsmanship to global markets.</p>
+                </div>
+            </div>
+            
+            <p>Under his guidance, House of Brands continues to expand its footprint globally, partnered with leading e-commerce giants and retail chains. Rajan's legacy is one of relentless pursuit of innovation, passion for fashion, and a dedication to creating products that resonate with consumers across the world.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>© 2025 HOUSE OF BRANDS FASHION LLP - All Rights Reserved.</h3>
+                    <p>HOB designs and manufactures stylish watches, sunglasses, apparel, and shoes. Partnering with Myntra, Neon, Flipkart, and other major brands.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Collections</h4>
+                        <ul>
+                            <li><a href="hob-categories.html">HOB Categories</a></li>
+                            <li><a href="partners.html">Our Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categories.html">Shop</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="visionary.html">Our Visionary</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Stay connected</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Partners - House Of Brands</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styles specific to the partners page */
+        .page-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2rem;
+            color: #0a3b4a;
+        }
+        
+        .back-button {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        
+        .back-button i {
+            margin-right: 5px;
+        }
+
+        .partners-section {
+            padding: 40px 0;
+        }
+
+        .partners-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .partners-description {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .partners-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .partners-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .partner-item {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            background-color: white;
+        }
+
+        .partner-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .partner-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .partner-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .partner-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #0a3b4a;
+        }
+
+        .partnership-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: block;
+        }
+
+        .partnership-description {
+            background-color: #f9f9f9;
+            padding: 40px;
+            border-radius: 8px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .partnership-description h2 {
+            margin-bottom: 20px;
+            color: #0a3b4a;
+        }
+
+        .partnership-description p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logos/logo.png" alt="House Of Brands Logo">
+                    <span>House Of Brands</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="visionary.html">Our Visionary</a></li>
+                    <li><a href="myntra-brands.html">Myntra OEM Brands</a></li>
+                    <li><a href="hob-categories.html">HOB Categories</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i></a>
+            
+            <div class="partners-header">
+                <h1 class="page-title">Our Partners (8)</h1>
+            </div>
+            
+            <div class="partners-description">
+                <p>House of Brands Fashion LLP partners with leading e-commerce portals and top offline distributors, ensuring wide market reach and accessibility. Our key e-commerce partners include Myntra, Flipkart, Nykaa, Shoppers Stop, and others.</p>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-item">
+                    <img src="images/partners/partner1.jpg" alt="Noon">
+                    <div class="partner-info">
+                        <h3>Noon</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/partner2.jpg" alt="Shoppers Stop">
+                    <div class="partner-info">
+                        <h3>Shoppers Stop</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner3.jpg" alt="Myntra">
+                    <div class="partner-info">
+                        <h3>Myntra</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner4.jpg" alt="AJIO">
+                    <div class="partner-info">
+                        <h3>AJIO</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner5.jpg" alt="Flipkart">
+                    <div class="partner-info">
+                        <h3>Flipkart</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner6.jpg" alt="Amazon">
+                    <div class="partner-info">
+                        <h3>Amazon</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner7.jpg" alt="Firstcry">
+                    <div class="partner-info">
+                        <h3>Firstcry</h3>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partner8.jpg" alt="Hopscotch">
+                    <div class="partner-info">
+                        <h3>Hopscotch</h3>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/partnership.jpg" alt="Partnership Handshake" class="partnership-image">
+
+            <div class="partnership-description">
+                <h2>PARTNERS</h2>
+                <p>House of Brands Fashion LLP partners with leading e-commerce portals and top offline distributors, ensuring wide market reach and accessibility. Our key e-commerce partners include Myntra, Flipkart, Nykaa, Shoppers Stop, and others.</p>
+                <p>We collaborate with professional retail chains and distributors to bring our products to physical stores. With a strong focus on quality and reliability, our partnerships are trusted leaders in the industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>© 2025 HOUSE OF BRANDS FASHION LLP - All Rights Reserved.</h3>
+                    <p>HOB designs and manufactures stylish watches, sunglasses, apparel, and shoes. Partnering with Myntra, Neon, Flipkart, and other major brands.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Collections</h4>
+                        <ul>
+                            <li><a href="hob-categories.html">HOB Categories</a></li>
+                            <li><a href="partners.html">Our Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categories.html">Shop</a></li>
+                            <li><a href="myntra-brands.html">Myntra OEM Brands</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Stay connected</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

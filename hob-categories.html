@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOB Categories - House Of Brands</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styles specific to the HOB Categories page */
+        .page-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2rem;
+            color: #0a3b4a;
+        }
+        
+        .back-button {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        
+        .back-button i {
+            margin-right: 5px;
+        }
+
+        .hob-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .hob-description {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .category-item {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            background-color: white;
+        }
+
+        .category-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .category-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #f9f9f9;
+        }
+
+        .category-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .category-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #0a3b4a;
+        }
+
+        .category-info p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .view-all {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0a3b4a;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .view-all:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logos/logo.png" alt="House Of Brands Logo">
+                    <span>House Of Brands</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="visionary.html">Our Visionary</a></li>
+                    <li><a href="myntra-brands.html">Myntra OEM Brands</a></li>
+                    <li><a href="hob-categories.html">HOB Categories</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HOB Categories Section -->
+    <section class="hob-categories-section">
+        <div class="container">
+            <a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i></a>
+            
+            <h1 class="page-title">HOB Categories (8)</h1>
+            
+            <p class="hob-description">House of Brands Fashion LLP designs and manufactures premium products in watches, sunglasses, belts, accessories, footwear, and apparel. Featuring our own designed collections and collaborating with major e-commerce platforms, we offer high-quality products that are a perfect blend of style, durability, and innovation.</p>
+            
+
+            
+            <div class="categories-grid">
+                <div class="category-item">
+                    <img src="images/category-watches.jpg" alt="Watches">
+                    <div class="category-info">
+                        <h3>Watches</h3>
+                        <p>Premium Timepieces</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-sunglasses.jpg" alt="Sunglasses">
+                    <div class="category-info">
+                        <h3>Sunglasses</h3>
+                        <p>Stylish & Trendy</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-lingerie.jpg" alt="Lingerie">
+                    <div class="category-info">
+                        <h3>Lingerie</h3>
+                        <p>Finest Collection</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-suits.jpg" alt="Suits & Blazers">
+                    <div class="category-info">
+                        <h3>Suits & Blazers</h3>
+                        <p>Premium Formal Wear</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-wallets.jpg" alt="Wallets">
+                    <div class="category-info">
+                        <h3>Wallets & Belts</h3>
+                        <p>Elegant Accessories</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-jewelry.jpg" alt="Jewelry">
+                    <div class="category-info">
+                        <h3>Jewelry</h3>
+                        <p>Exquisite Collection</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-belts.jpg" alt="Belts">
+                    <div class="category-info">
+                        <h3>Belts</h3>
+                        <p>Premium Quality</p>
+                    </div>
+                </div>
+                
+                <div class="category-item">
+                    <img src="images/category-wallets.jpg" alt="Men's Wallet">
+                    <div class="category-info">
+                        <h3>Men's Wallet</h3>
+                        <p>Stylish & Functional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>© 2025 HOUSE OF BRANDS FASHION LLP - All Rights Reserved.</h3>
+                    <p>HOB designs and manufactures stylish watches, sunglasses, apparel, and shoes. Partnering with Myntra, Neon, Flipkart, and other major brands.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Collections</h4>
+                        <ul>
+                            <li><a href="hob-categories.html">HOB Categories</a></li>
+                            <li><a href="partners.html">Our Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Stay connected</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
